@@ -1,0 +1,11 @@
+[package]
+name = "ul31project_org"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
+
+[dependencies]
+actix-web = "4.3.1"
